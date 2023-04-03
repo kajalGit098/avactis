@@ -13,6 +13,8 @@ public class StatusOfWebElement {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(5000);
 		
+		This is the change I'm making
+		
 		WebElement username=driver.findElement(By.name("username"));
 		username.sendKeys("Admin");
 		
